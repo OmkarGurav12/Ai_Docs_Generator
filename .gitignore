@@ -34,8 +34,32 @@ next-env.d.ts
 
 # env file
 .env
-node_modules
+node_modules/
 
 .aider.chat.history.md
-.cursorrules
 .aider.input.history
+.aider*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+eggs/
+.eggs/
+
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Poetry
+poetry.lock
+.poetry/
+.venv/
