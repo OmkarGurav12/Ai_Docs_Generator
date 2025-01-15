@@ -2,51 +2,7 @@
 
 An intelligent system that automatically generates comprehensive business and technical documentation using AI agents.
 
-## Features
 
-- Business Documentation
-  - Business Description
-  - Current Operation Flow
-  - Requirements List
-  - Proposed Operation Flow
-  - Function List
-  - Non-Functional Requirements
-
-- Technical Documentation
-  - System Abstraction
-  - Database Schema
-  - ER Diagrams
-  - Screen Navigation
-  - UI Components
-  - API Endpoints
-  - Sequence Diagrams
-  - System Architecture
-
-## Project Structure
-
-```
-AI_Docs_Generator/
-├── src/
-│   ├── app/              # Next.js app directory
-│   └── components/       # React components
-│       ├── create-story.tsx
-│       ├── document-generator.tsx
-│       ├── document-preview.tsx
-│       ├── document-type-form.tsx
-│       ├── project-form.tsx
-│       └── story-form.tsx
-├── backend/
-│   ├── agents/           # AI Agents for document generation
-│   ├── config/           # Configuration settings
-│   ├── graphs/           # Workflow graph implementation
-│   ├── models/           # Data models and state management
-│   └── utils/            # Utility functions
-├── generated_docs/       # Generated documentation storage
-│   ├── business/         # Business documentation
-│   └── technical/        # Technical documentation
-├── requirements.txt      # Python dependencies
-└── .env                  # Environment variables
-```
 
 ## Setup
 
