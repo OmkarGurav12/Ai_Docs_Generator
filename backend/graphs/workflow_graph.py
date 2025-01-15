@@ -1,5 +1,5 @@
 from langchain_core.language_models.base import BaseLanguageModel
-from .base_graph import BaseGraph
+from backend.graphs.base_graph import BaseGraph
 
 class DocumentationWorkflow(BaseGraph):
     def __init__(self, llm: BaseLanguageModel):

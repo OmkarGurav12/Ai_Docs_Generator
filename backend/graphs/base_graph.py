@@ -1,5 +1,5 @@
 from typing import Dict, Any
-from agents.base_agent import BaseAgent
+from backend.agents.base_agent import BaseAgent
 from langchain_core.language_models.base import BaseLanguageModel
 
 class BaseGraph:
