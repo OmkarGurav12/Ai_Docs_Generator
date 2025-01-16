@@ -2,9 +2,9 @@ from typing import Any, Dict, List, Optional
 from langchain_core.messages import BaseMessage
 from langchain_google_vertexai import VertexAI
 
-from backend.models.state import State
-from backend.config import settings
-from backend.utils.document_manager import DocumentManager
+from ..models.state import State
+from ..config import settings
+from ..utils.document_manager import DocumentManager
 
 class BaseAgent:
     """Base agent class for LangGraph agents."""

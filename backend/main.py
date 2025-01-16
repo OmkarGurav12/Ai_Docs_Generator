@@ -2,10 +2,10 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from langchain_google_vertexai import VertexAI
 import vertexai
-from config.settings import get_settings
-from models.workflow import WorkflowInput, WorkflowOutput
-from graphs.workflow_graph import DocumentationWorkflow
-from utils.document_manager import DocumentManager
+from .config.settings import get_settings
+from .models.workflow import WorkflowInput, WorkflowOutput
+from .graphs.workflow_graph import DocumentationWorkflow
+from .utils.document_manager import DocumentManager
 import uvicorn
 
 settings = get_settings()
